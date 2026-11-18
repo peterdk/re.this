@@ -36,7 +36,6 @@ fun Project.configureKotlin(block: KotlinMultiplatformExtension.() -> Unit) {
                 }
             }
         }
-        jvmToolchain(jvmTargetVer)
 
         js { nodejs() }
 
